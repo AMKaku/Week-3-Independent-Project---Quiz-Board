@@ -3,10 +3,10 @@ const submitAnswer = document.querySelector("#submit_ans");
 let marks = 0;
 let total = 0;
 quizAnswers.forEach(function (jibu) {
-    if(parseInt(jibu.value) > 0) {
+    if (parseInt(jibu.value) > 0) {
         total += parseInt(jibu.value);
     }
-    else{
+    else {
         total = total;
     }
     jibu.addEventListener("change", function (event) {
@@ -14,6 +14,6 @@ quizAnswers.forEach(function (jibu) {
     });
 });
 submitAnswer.addEventListener("click", function (event) {
-    let score = (marks/total)*100;
+    let score = (marks / total) * 100;
     alert("your score is " + score + "%");
 });
