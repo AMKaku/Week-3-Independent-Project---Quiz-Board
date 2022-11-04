@@ -20,8 +20,19 @@ $(document).ready(function () {
             }
         })
         let score = (marks / total) * 100;
-        alert("your score is " + score + "%");
-        $("#finalscore").text()
+         alert("your score is " + score + "%");
+        
+        let level = "";
+        if (percentage > 80){
+            level += "Excellentl";
+        }
+        else if(percentage >= 50 && percentage >= 80 ){
+            level += "Good";
+        }
+        else{
+            level += "\not passed, Please retake test.";
+        }
+        $("#finalscore").text("You have scored:" + percentage +"%"+level);
     });
 });
 
