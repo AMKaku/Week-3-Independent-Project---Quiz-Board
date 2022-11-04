@@ -14,7 +14,7 @@ css
 github
 JavaScript
 live site
-https://amkaku.github.io/Landing-page-week1-project/
+https://amkaku.github.io/Week-3-Independent-Project---Quiz-Board/
 
 license
 The license used is GPL
