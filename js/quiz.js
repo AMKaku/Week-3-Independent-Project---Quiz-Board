@@ -1,7 +1,7 @@
 $(document).ready(function () { 
     const quizAnswers = document.querySelectorAll(".ouranswers");
     const submitAnswer = document.querySelector("#submit_ans");
-    const finalAnswer = document.querySelector('#finalscore');
+    const finalAnswer = document.querySelector("#finalscore");
     let marks = 0;
     let total = 0;
     quizAnswers.forEach(function (jibu) {
@@ -20,19 +20,19 @@ $(document).ready(function () {
             }
         })
         let score = (marks / total) * 100;
-         alert("your score is " + score + "%");
-        
+        alert("your score is " + score + "%");
         let level = "";
         if (percentage > 80){
             level += "Excellentl";
         }
-        else if(percentage >= 50 && percentage >= 80 ){
+        else if(percentage >= 50 && percentage <= 80 ){
             level += "Good";
         }
         else{
             level += "\not passed, Please retake test.";
+            alert.text("You have scored:" + score +"%"+level);
         }
-        $("#finalscore").text("You have scored:" + percentage +"%"+level);
     });
+     //$("#finalscore").text("You have scored:" + percentage +"%"+level);
 });
 

@@ -53,11 +53,21 @@
             <label class="form-check-label" for="ans_five_a">I dont know. </label> <br>
             <br>
             <input type="submit" id="submit_ans">
+            <div class="container text-center my-3">
+                <button type="button" class="btn btn-outline-primary btn-lg" id="finished">SUBMIT</button>
+            </div>
         </form>
     </div>
     <br>
+    <p>Your final score is</p>
     <div class="container">
-<p>Your final score is </p>;
+        <div class="container" d-none id="Rate">
+            <div class="card text-center outline-light mb-3">
+            <div class="card-body text-primary">
+              <h5 class="card-title outline-light">Thank you for attempting the Quiz</h5>
+              <p class="card-text" id="score"></p>
+            </div>
+          </div>
     </div>
 <div>
     <form action="_blank"></form>
