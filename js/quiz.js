@@ -23,16 +23,16 @@ $(document).ready(function () {
         alert("your score is " + score + "%");
         let level = "";
         if (percentage > 80){
-            level += "Excellentl";
+            level += "Excellently passed";
         }
         else if(percentage >= 50 && percentage <= 80 ){
-            level += "Good";
+            level += "Fairly Passed";
         }
         else{
             level += "\not passed, Please retake test.";
             alert.text("You have scored:" + score +"%"+level);
         }
     });
-     //$("#finalscore").text("You have scored:" + percentage +"%"+level);
+     $("#finalscore").text("You have scored:" + percentage +"%"+level);
 });
 
