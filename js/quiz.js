@@ -35,4 +35,3 @@ $(document).ready(function () {
     });
      $("#finalscore").text("You have scored:" + percentage +"%"+level);
 });
-
