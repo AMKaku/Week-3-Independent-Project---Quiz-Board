@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaku's QuizBoard</title>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -14,7 +13,7 @@
         <h1>Kaku's QuizBoard</h1>
         <p> The exercise is to test all learnt from HTML, Javascript,jQuery </p>
     </div>
-    <div class="container">
+    <div class="container" class="jumbotron">
         <form action="" id=" quiz_one">
             <p> 1. What is the short form of Hypertext Markup languange? </p>
             <input class="form-check-input ouranswers" type="radio" name="ans1" id="ans_one_a" value="2">
@@ -38,7 +37,7 @@
             <input class="form-check-input ouranswers" type="radio" name="ans3" id="ans_three_b" value="2">
             <label class="form-check-label" for="ans_three_b"> No </label> <br>
             <br>
-            <p> 4. Can a website without Javascript be interactive? </p>
+            <p> 4. Does Git commands allows in cloning, branching, merging, rolling back commits, forking, and submitting pull requests?</p>
             <input class="form-check-input ouranswers" type="radio" name="ans4" id="ans_four_a" value="2">
             <label class="form-check-label" for="ans_four_a"> Yes</label> <br>
             <input class="form-check-input ouranswers" type="radio" name="ans4" id="ans_four_b" value="0">
@@ -52,7 +51,7 @@
             <input class="form-check-input ouranswers" type="radio" name="ans5" id="ans_five_c" value="0">
             <label class="form-check-label" for="ans_five_a">I dont know. </label> <br>
             <br>
-            <input type="submit" id="submit_ans">
+            <input type="submit" id="submit_ans" />
             <div class="container text-center my-3">
                 <button type="button" class="btn btn-outline-primary btn-lg" id="finished">SUBMIT</button>
             </div>
@@ -76,10 +75,8 @@
     <form action="_blank"></form>
 </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="crossorigin="anonymous"></script>
+    <script src=https://code.jquery.com/jquery-3.6.1.slim.min.jsintegrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="crossorigin="anonymous"></script>
     <script src="js/quiz.js"></script>
-
 
 </body>
 </html>
