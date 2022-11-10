@@ -4,4 +4,13 @@ body{
 h1{
     font-size: x-large;
     text-decoration: underline;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 };
+body{
+    mask-image: url(/images/Image.jpg);
+};
+body{
+    text-decoration-line: 
+}
